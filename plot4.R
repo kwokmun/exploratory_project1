@@ -31,4 +31,6 @@ plot(data$datetime, data$Voltage, type = "l", xlab = "datetime", ylab = "Voltage
 
 # Plot 4
 plot(data$datetime, data$Global_reactive_power, type = "l", xlab = "datetime", ylab = "Global_reactive_power")
+
+#Close graphics device
 dev.off()
